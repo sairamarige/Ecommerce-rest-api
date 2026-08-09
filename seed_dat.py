@@ -105,4 +105,4 @@ if db.query(Headphone).count() == 0:
 db.commit()
 db.close()
 
-print("✅ Database seeded successfully!")
+print("Database seeded successfully!")
