@@ -80,7 +80,7 @@ def delete_mobile(mobile_id: int, db: Session = Depends(get_db)):
     if not deleted:
         raise HTTPException(status_code=404, detail="Mobile not found")
 
-    return {"message": "Mobile deleted successfully"}
+    return {"message": "succesfully deleted mobile"}
 
 
 # ======================================================
